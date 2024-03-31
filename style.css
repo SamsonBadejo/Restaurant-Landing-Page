@@ -1,0 +1,49 @@
+:root {
+  --primary: #fea116;
+  --light: #f1f8ff;
+  --dark: #0f172b;
+}
+
+/* .title h1{
+  
+} */
+
+/* styling for hero header */
+.hero-header {
+  background: linear-gradient(rgba(15, 23, 43, 0.8), rgba(15, 23, 43, 0.8)),
+    url(./assets/l-intro-1689282071.jpg);
+}
+.hero-header img {
+  animation: imgRotate 50s linear infinite;
+}
+
+/* styling for the fa icon */
+.fab {
+  color: red;
+}
+.fas {
+  color: white;
+  font-size: 30px;
+  margin-right: 10px;
+}
+.cont {
+  background-color: var(--light);
+}
+.cont2 {
+  background-color: var(--light);
+}
+
+/* styling for the navbar */
+.navbar-nav .nav-link {
+  transition: all ease 300ms;
+  color: white;
+  border-radius: 10px;
+  margin: 0px 10px;
+}
+
+/* Hover effect for navbar links */
+.navbar-nav .nav-link:hover {
+  background-color: #fff;
+  color: red;
+  border-radius: 5px;
+}
